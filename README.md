@@ -74,7 +74,7 @@ php artisan queue:work
 
 ---
 
-🚀 Cara Menggunakan
+Cara Menggunakan
 
 Buka browser:
 
