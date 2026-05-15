@@ -36,9 +36,11 @@ Mini Chat adalah aplikasi chat real-time berbasis Laravel yang menggunakan **Lar
 ```bash
 git clone https://github.com/USERNAME/mini-chat.git
 cd mini-chat
-2. Install dependency PHP
+
+### 2. Install dependency PHP
 composer install
-3. Install dependency frontend
+
+### 3. Install dependency frontend
 npm install
 npm run build
 4. Setup environment
