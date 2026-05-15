@@ -32,20 +32,23 @@ Mini Chat adalah aplikasi chat real-time berbasis Laravel yang menggunakan **Lar
 
 ## Instalasi Project
 
-### 1. Clone repository
+
 ```bash
+1. Clone repository
 git clone https://github.com/USERNAME/mini-chat.git
 cd mini-chat
 
-### 2. Install dependency PHP
+2. Install dependency PHP
 composer install
 
-### 3. Install dependency frontend
+3. Install dependency frontend
 npm install
 npm run build
+
 4. Setup environment
 cp .env.example .env
 php artisan key:generate
+
 5. Setup database di .env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -53,17 +56,23 @@ DB_PORT=3306
 DB_DATABASE=mini_chat
 DB_USERNAME=root
 DB_PASSWORD=
+
 6. Buat database
 CREATE DATABASE mini_chat;
+
 7. Jalankan migrasi
 php artisan migrate
+
 8. Jalankan server Laravel
 php artisan serve
+
 9. Jalankan Reverb (WebSocket)
 php artisan reverb:start --debug
+
 10. Jalankan Queue Worker
 php artisan queue:work
 
+---
 
 🚀 Cara Menggunakan
 
